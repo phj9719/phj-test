@@ -15,7 +15,6 @@
     >
         <wj-flex-grid-column binding="index" header="Number" width="2*" :isReadOnly="true" align="center" />
         <wj-flex-grid-column binding="address" header="address" width="2*" :isReadOnly="true" align="center" />
-        <wj-flex-grid-column binding="phoneNo" header="phoneNo" width="2*" :isReadOnly="true" align="center" />
     </wj-flex-grid>
 </template>
 

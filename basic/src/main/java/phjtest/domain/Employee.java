@@ -28,12 +28,6 @@ public class Employee {
     @ElementCollection
     private List<EmployeeUser> employeeUser;
 
-    @Embedded
-    private EmployeeUser employeeUser;
-
-    @Embedded
-    private EmployeeUser employeeUser;
-
     @PostPersist
     public void onPostPersist() {
         EmployeeAdded employeeAdded = new EmployeeAdded(this);

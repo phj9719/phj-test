@@ -12,7 +12,7 @@ import org.springframework.beans.BeanUtils;
 @NoArgsConstructor
 public class EmployeeUser {
 
-    private String address;
+    private String name;
 
-    private String phoneNo;
+    private String address;
 }

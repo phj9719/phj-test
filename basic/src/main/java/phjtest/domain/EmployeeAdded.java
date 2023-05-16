@@ -13,7 +13,6 @@ public class EmployeeAdded extends AbstractEvent {
     private String userId;
     private RankId rankId;
     private DepartmentId departmentId;
-    private List<EmployeeUser> employeeUser;
 
     public EmployeeAdded(Employee aggregate) {
         super(aggregate);

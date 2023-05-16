@@ -72,8 +72,6 @@
                 'rankId': {},
                 'departmentId': {},
                 'employeeUser': [],
-                'employeeUser': {},
-                'employeeUser': {},
             }
         },
         methods:{

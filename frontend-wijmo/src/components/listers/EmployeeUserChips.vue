@@ -12,8 +12,8 @@
                     <v-list-item-content>
                         <v-list-item-title>Message {{idx+1}}</v-list-item-title>
                         <v-list-item-subtitle>
+                            Name :  {{item.name }} <br>
                             Address :  {{item.address }} <br>
-                            PhoneNo :  {{item.phoneNo }} <br>
                         </v-list-item-subtitle>
                     </v-list-item-content>
                     <v-list-item-action v-if="editMode">
